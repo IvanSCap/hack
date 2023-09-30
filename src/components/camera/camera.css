@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1_129 {
+  width: 360px;
+  height: 800px;
+  background: #379C49;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+}
+.v1_114 {
+  width: 80px;
+  height: 80px;
+  background: rgba(242,210,48,1);
+  opacity: 1;
+  position: absolute;
+  top: 649px;
+  left: 140px;
+  border-radius: 50%;
+}
+.v1_111 {
+  width: 160px;
+  height: 160px;
+  background: url("./camera.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 97px;
+  overflow: hidden;
+}
+.v1_97 {
+  width: 253px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 557px;
+  left: 54px;
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_98 {
+  width: 309px;
+  color: rgba(242,210,48,0.8500000238418579);
+  position: absolute;
+  top: 37px;
+  left: 26px;
+  font-family: Mitr;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+.v1_109 {
+  width: 205px;
+  height: 184px;
+  background: url("./bean.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 381px;
+  left: 75px;
+  overflow: hidden;
+}
+.v1_1111 {
+  width: 160px;
+  height: 160px;
+  background: url("./camera.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 145px;
+  left: 97px;
+  overflow: hidden;
+}
+.v1_1099 {
+  width: 205px;
+  height: 184px;
+  background: url("./bean.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 361px;
+  left: 75px;
+  overflow: hidden;
+}
+.v6_250 {
+  width: 360px;
+  height: 800px;
+  background: rgba(58,154,73,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v6_252 {
+  width: 287px;
+  color: rgba(242,210,48,0.8500000238418579);
+  position: absolute;
+  top: 18px;
+  left: 37px;
+  font-family: Mitr;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+.v6_256 {
+  width: 253px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 537px;
+  left: 54px;
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v6_262 {
+  width: 253px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 600px;
+  left: 54px;
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v6_261 {
+  width: 131px;
+  height: 125px;
+  background: url("./bean.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 415px;
+  left: 118px;
+  overflow: hidden;
+}
+.pacman-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 649px;
+  left: 140px;
+}
+.v2_137 {
+  width: 360px;
+  height: 800px;
+  background: rgba(58,154,73,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_141 {
+  width: 330px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 340px;
+  left: 14px;
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_988 {
+  width: 309px;
+  color: rgba(242,210,48,0.8500000238418579);
+  position: absolute;
+  top: 18px;
+  left: 26px;
+  font-family: Mitr;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+.v2_143 {
+  width: 205px;
+  height: 184px;
+  background: url("./bean.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 440px;
+  left: 75px;
+  overflow: hidden;
+}
+.v2_145 {
+  width: 172px;
+  height: 172px;
+  /*background: red;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 94px;
+  overflow: hidden;
+}
+.v2_145 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.v2_147 {
+  width: 259px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 640px;
+  left: 54px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v16_271 {
+  width: 360px;
+  height: 800px;
+  background: rgba(58,154,73,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v16_272 {
+  width: 330px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 300px;
+  left: 13px;
+  font-family: Mitr;
+  font-weight: 400;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v16_281 {
+  width: 101px;
+  height: 101px;
+  background: url("./green.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 127px;
+  overflow: hidden;
+}
+.v16_279 {
+  width: 101px;
+  height: 101px;
+  background: url("./green.png");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v16_278 {
+  width: 101px;
+  height: 101px;
+  background: url("./green.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v16_273 {
+  width: 287px;
+  color: rgba(242,210,48,0.8500000238418579);
+  position: absolute;
+  top: 18px;
+  left: 37px;
+  font-family: Mitr;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+.v16_282 {
+  width: 311px;
+  height: 58px;
+  background: url("./scan.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 609px;
+  left: 25px;
+  overflow: hidden;
+}
+.v16_283 {
+  width: 311px;
+  height: 58px;
+  /*background: rgba(242,210,48,0.8500000238418579);*/
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  overflow: hidden;
+}
+.v16_284 {
+  width: 276px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  font-family: Mitr;
+  font-weight: 300;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v16_285 {
+  width: 311px;
+  height: 58px;
+  /*background: url("./wyloguj.png");*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 682px;
+  left: 25px;
+  overflow: hidden;
+}
+.v16_286 {
+  width: 311px;
+  height: 58px;
+  background: rgba(242,210,48,0.8500000238418579);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 7px solid rgba(242,210,48,1);
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  overflow: hidden;
+}
+.v16_287 {
+  width: 167px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 14px;
+  left: 72px;
+  font-family: Mitr;
+  font-weight: 300;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+
+
+.timer {
+  width: 309px;
+  color: rgb(242, 210, 48);
+  position: absolute;
+  top: 450px;
+  left: 27px;
+  font-family: Mitr;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.2;
+}
+.last-trash {
+  width: 205px;
+  height: 184px;
+  background: url("./bean.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 75px;
+  overflow: hidden;
+}

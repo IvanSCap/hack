@@ -1,0 +1,118 @@
+{
+  "tasks": [
+    {
+      "name": "user5_task2",
+      "description": "user5_task2_descr",
+      "isDone": false,
+      "time": "2023-04-20T03:24:00.000Z",
+      "priority": "low",
+      "id": 2,
+      "userId": 1
+    },
+    {
+      "name": "user1@gmail.com_Task1",
+      "description": "user1@gmail.com_D",
+      "isDone": true,
+      "time": null,
+      "priority": null,
+      "id": 3,
+      "userId": 2
+    },
+    {
+      "name": "user1@gmail.com_Task2",
+      "description": "user1@gmail.com\nD2",
+      "isDone": false,
+      "time": null,
+      "priority": null,
+      "id": 4,
+      "userId": 1
+    },
+    {
+      "name": "user1_Task",
+      "description": "user1_Task_D",
+      "isDone": false,
+      "time": null,
+      "priority": "medium",
+      "id": 5
+    },
+    {
+      "name": "user7_Task",
+      "description": "user7_Descr",
+      "isDone": false,
+      "time": null,
+      "priority": "medium",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "name": "user7_Task",
+      "description": null,
+      "isDone": true,
+      "time": null,
+      "priority": "medium",
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "name": "1",
+      "description": "1",
+      "isDone": false,
+      "time": null,
+      "priority": null,
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "name": "test2",
+      "description": "descr",
+      "isDone": false,
+      "time": "2023-09-02T02:20:00.000Z",
+      "priority": "medium",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "111",
+      "confirmPassword": "111",
+      "id": 1
+    },
+    {
+      "name": "user4",
+      "email": "user4@gmail.com",
+      "password": "444",
+      "confirmPassword": "444",
+      "id": 4
+    },
+    {
+      "name": "user5",
+      "email": "user5@gmail.com",
+      "password": "555",
+      "confirmPassword": "555",
+      "id": 5
+    },
+    {
+      "name": "user7",
+      "email": "user7@gmail.com",
+      "password": "777",
+      "confirmPassword": "777",
+      "id": 6
+    },
+    {
+      "name": "user10",
+      "email": "user10@gmail.com",
+      "password": "123r",
+      "confirmPassword": "123r",
+      "id": 7
+    },
+    {
+      "name": "user11",
+      "email": "user11@gmail.com",
+      "password": "uswr11",
+      "confirmPassword": "user11",
+      "id": 8
+    }
+  ]
+}
