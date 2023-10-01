@@ -12,7 +12,7 @@ import { LoginPage } from './app/AuthPage/LoginPage';
 import { Registration } from './app/AuthPage/Registration';
 import { AuthGuard } from './components/AuthGuard';
 import { AuthProvider } from './components/AuthProvider';
-import { Camera2 } from "./components/camera/camera2";
+import Camera2 from './components/camera/camera2';
 
 const isDarkThemeKey = 'isDarkTheme';
 
