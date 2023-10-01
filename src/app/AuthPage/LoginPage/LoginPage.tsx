@@ -114,14 +114,14 @@ export const LoginPage = () => {
           </Button>
         </Grid>
 
-        <Grid item color="primary">
-          <Link to="/auth/registration">
+        <Grid item>
+          <Link to="/auth/registration" color="red">
             {t('auth.login.forgotPassword')}
           </Link>
         </Grid>
 
         <Grid item>
-          <Link to="/auth/registration" color="secondary">
+          <Link to="/auth/registration" color="primary">
             {t('auth.login.registerLink')}
           </Link>
         </Grid>

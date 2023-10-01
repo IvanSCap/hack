@@ -26,17 +26,17 @@ export const en = {
   auth: {
     register: {
       header: 'Register an account',
-      emailConflict: 'Пользователь с такой почтой уже существует',
-      nameLabel: 'Имя',
-      namePlaceholder: 'Введите имя...',
-      emailLabel: 'E-mail адрес',
-      emailPlaceholder: 'Введите e-mail...',
+      emailConflict: 'User with this email already exists',
+      nameLabel: 'Name',
+      namePlaceholder: 'Enter name...',
+      emailLabel: 'e-mail',
+      emailPlaceholder: 'Enter e-mail...',
       passwordLabel: 'Password',
       passwordPlaceholder: 'Enter password...',
-      passwordRepeatLabel: 'Повторите пароль',
-      passwordRepeatPlaceholder: 'Введите пароль...',
+      passwordRepeatLabel: 'Repeat password',
+      passwordRepeatPlaceholder: 'Enter password...',
       submitButton: 'Register',
-      loginLink: 'Есть аккаунт? Войти'
+      loginLink: 'Do you have an account? Sign in'
     },
     login: {
       header: 'Login to your personal account',
@@ -46,7 +46,8 @@ export const en = {
       passwordLabel: 'Password',
       passwordPlaceholder: 'Enter password...',
       submitButton: 'Login',
-      registerLink: 'Create a new account'
+      registerLink: 'Create a new account',
+      forgotPassword: 'Forgot password?'
     }
   },
   button: {
