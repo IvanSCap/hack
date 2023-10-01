@@ -9,7 +9,7 @@ interface ILoginData {
 }
 
 export const register = (user: IUser, config?: AxiosRequestConfig) => {
-  return api.post('/users', user, config).then(({ data }) => {
+  return api.post('/api/v1/auth/register', user, config).then(({ data }) => {
     return data;
   })
   .catch((data) => {
