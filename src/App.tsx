@@ -12,7 +12,7 @@ import { LoginPage } from './app/AuthPage/LoginPage';
 import { Registration } from './app/AuthPage/Registration';
 import { AuthGuard } from './components/AuthGuard';
 import { AuthProvider } from './components/AuthProvider';
-import { Camera2 } from "./components/camera/camera2";
+import Camera2 from './components/camera/camera2';
 
 const isDarkThemeKey = 'isDarkTheme';
 
@@ -69,7 +69,7 @@ function App() {
                 <Route path="/" element={<Navigate to="/todo" />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/auth/registration" element={<Registration />} />
-                <Route path="/hack" element={<Camera2 />} />
+                <Route path="/hack/:collectorId" element={<Camera2 />} />
 
                 <Route element={<AuthGuard />}>
                   <Route path="/todo" element={<TasksPage />} />
