@@ -98,7 +98,7 @@ export const Camera2 = () => {
     return new Promise((resolve, reject) => {
       //https://hackyeah-back-production.up.railway.app/api/analyze
       //http://localhost:8080/analyze
-      fetch("http://localhost:8080/analyze", {
+      fetch("https://hackyeah-back-production.up.railway.app/analyze", {
         method: "POST", headers: {
           "Content-Type": "application/json"
         }, body
