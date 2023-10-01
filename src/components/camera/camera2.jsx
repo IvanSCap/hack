@@ -13,6 +13,7 @@ import plasticImg from "./plastic.png";
 import humanImg from "./human.png";
 import bean from "./bean.png";
 import LoginIcon from "@mui/icons-material/Login";
+import { useParams } from 'react-router-dom';
 
 function convertWebpToJpeg(webpData) {
   const canvas = document.createElement("canvas");
@@ -41,6 +42,7 @@ function convertWebpToJpeg(webpData) {
 }
 
 export const Camera2 = () => {
+  const { collectorId } = useParams();
   const [ isLogged, setIsLogged ] = useState(true);
   const [ balance, setBalance ] = useState(true);
   const [ photoUrl, setPhotoUrl ] = useState("");
@@ -54,7 +56,7 @@ export const Camera2 = () => {
 
   // const history = useHistory();
 
-  const collectorId = window.location.href.split('/').pop();
+  // const collectorId = window.location.href.split('/').pop();
 
   const imageMap = {
     PAPER: paperImg, GLASS: glassImg, PLASTIC_METAL: plasticImg, BIO: bioImg, MIXED: mixedImg, HUMAN: humanImg
@@ -84,19 +86,19 @@ export const Camera2 = () => {
 
       setCameraOn(false);
     }
-  }, [cameraOn]);
+  }, [ cameraOn ]);
 
   const sendPhoto = useCallback((photo) => {
     // console.log(photoUrl);
     // const image = photoUrl.split(',').pop();
     const image = photoUrl;
     const body = JSON.stringify({collectorId, image});
-    console.log(image);
+    console.log(body);
 
     return new Promise((resolve, reject) => {
-      //http://hack-hashok.koyeb.app/analyze
+      //https://hackyeah-back-production.up.railway.app/api/analyze
       //http://localhost:8080/analyze
-      fetch("https://hackyeah-back-production.up.railway.app\n/analyze", {
+      fetch("http://localhost:8080/analyze", {
         method: "POST", headers: {
           "Content-Type": "application/json"
         }, body
