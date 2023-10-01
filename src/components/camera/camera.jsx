@@ -93,7 +93,7 @@ const Camera = () => {
         return new Promise((resolve, reject) => {
             //http://hack-hashok.koyeb.app/analyze
             //http://localhost:8080/analyze
-            fetch("https://hack-hashok.koyeb.app/analyze", {
+            fetch("https://hackyeah-back-production.up.railway.app\n/analyze", {
                 method: "POST", headers: {
                     "Content-Type": "application/json"
                 }, body
