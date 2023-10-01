@@ -18,11 +18,8 @@ export const register = (user: IUser, config?: AxiosRequestConfig) => {
 };
 
 export const login = (loginData: ILoginData, config?: AxiosRequestConfig) => {
-  return fetchUsers({
-    ...config,
-
-    params: loginData
-  }).then((users) => {
+  return fetchUsers(loginData, config
+  ).then((users) => {
     const user = users?.[0];
     
     if (user) {
